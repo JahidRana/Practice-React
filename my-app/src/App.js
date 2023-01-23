@@ -3,6 +3,8 @@ import "./App.css";
 import UseState from "./component/UseState";
 import Counter from "./component/Counter";
 import Loginform from "./component/Form/Loginform";
+import UseEffect1 from "./component/useEffect/UseEffect1";
+import UseEffect2 from "./component/useEffect/UseEffect2";
 const App = () => {
   // const [myName, setName] = useState("Jahid Rana");
 
@@ -23,7 +25,7 @@ const App = () => {
       </button> */}
       {/* <UseState /> */}
       {/* <Counter /> */}
-      <Loginform />
+      <UseEffect2 />
     </div>
   );
 };
