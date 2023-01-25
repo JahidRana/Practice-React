@@ -4,7 +4,14 @@
     font-family: "Jost", sans-serif;
 }
 
-body {
+nav {
+    text-align: center;
+    background: powderblue;
+    padding: 22px;
+}
+
+
+/* body {
     background: #455a79;
     display: flex;
     justify-content: center;
@@ -13,12 +20,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: "Jost", sans-serif;
-}
-
-html {
-    font-size: 100%;
-    height: 100%;
-}
+} */
 
 .input {
     font-family: "Noto Serif KR", sans-serif;
@@ -38,15 +40,6 @@ html {
     border-style: none;
     border-radius: 25px;
     padding-top: 70px;
-}
-
-.lab {
-    display: flex;
-    font-family: "Jost", sans-serif;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    color: white;
 }
 
 .btn {
@@ -99,4 +92,31 @@ button.btn {
     padding-top: 70px;
     position: relative;
     right: 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+section {
+    display: grid;
+    grid-gap: 1rem;
+}
+
+article {
+    background-color: aliceblue;
+}
+
+@media screen and (min-width: 600px) {
+    section {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section {
+        grid-template-columns: auto auto auto;
+    }
 }
